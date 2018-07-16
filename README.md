@@ -28,7 +28,7 @@ Projects include:
 * Web Basics Review
     * HTML
     * JavaScript
-* A-Frame & AR.js
+* A-Frame
 * **In-class Exercises/Challenges**: 
     * Set-Up Class Workspace
     * Build A Basic HTML Structure
@@ -44,7 +44,7 @@ Projects include:
 * **In-class Exercises/Challenges**: 
     * Set-Up Class Workspace
     * Client Side Exercise - Mad Libs
-* **Vocabulary**: web browser, web server, url, parse, protocol, server, client, path, Internet Service Provider (ISP), dns server, ip address, http request, http response, client side programming, server side programming
+* **Vocabulary**: 
 
 #### [Day 3: 3.js](notes/day2.md)
 * TBD

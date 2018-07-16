@@ -1,4 +1,4 @@
-## Week 1
+## Day 1
 ## Introduction & Workspace Set-Up
 
 ![Pokemon Go!](../img/pokemongo.jpg)
@@ -36,27 +36,27 @@
 * HTML tags or elements add structure the content.
 * Almost all tags/elements have an open and a close tag...
 
+![HTML Open Tag](../img/open.png)
+
+![HTML Close Tag](../img/close.png)
+
+![HTML attribute](../img/attribute.png)
 
 ```html
 <!DOCTYPE html>
 <html>
-<head>
-    <meta charset = “UTF-8”>
-<title>This is the Main Heading</h1>
-</head>
-<body>
-<h1>This is the Main Heading</h1>
-<p>This text might be an introduction to the rest of 
-          the page. And if the page is a long one it might be 
-                   split up into several sub-headings.</p> 
-<h2>This is a Sub-Heading</h2>
-<p>Many long articles have sub-headings to help you 
-      follow the structure of what is being written. 
-      There may even be sub-sub-headings (or 
-      lower-level headings).</p> 
-<h2>Another Sub-Heading</h2>
-<p>Here you can see another sub-heading.</p> 
-</body>
+    <head>
+        <meta charset = “UTF-8”>
+        <title>This is the Main Heading</h1>
+    </head>
+    <body>
+        <h1>This is the Main Heading</h1>
+        <p>This text might be an introduction to the rest of the page. And if the page is a long one it might be split up into several sub-headings.</p> 
+        <h2>This is a Sub-Heading</h2>
+        <p>Many long articles have sub-headings to help you follow the structure of what is being written. There may even be sub-sub-headings (or lower-level headings).</p> 
+        <h2>Another Sub-Heading</h2>
+        <p>Here you can see another sub-heading.</p> 
+    </body>
 </html> 
 ```
 
@@ -72,6 +72,30 @@
     * Indent to represent nesting
     * Use same capitalization
 
+### CSS Review
+* Cascading Style Sheets
+* a “style sheet language”, consisting of “style rules” that lets you style the elements on your page
+
+```html
+<p style = "color:#FF0000;">Some text...</p>
+```
+
+* The style attribute allows you to specify Cascading Style Sheet (CSS) rules within the element.
+
+```css
+Selector {
+    Property: value;
+    Property: value;
+}
+```
+* CSS consists of “style rules”. Each style rule has a **selector** and declarations of **property-value** pairs.
+* The **selector** is used to select which elements in the html will be given the **properties** inside the curly braces. 
+* Selectors include: element/tags, Id or Class attributes, or by the position within the document. 
+
+```html
+<body style='margin : 0px; overflow: hidden;'>
+```
+
 ### WHAT IS JAVASCRIPT
 * A cross-platform, object-oriented scripting language.
 * Used to make webpages interactive, such as parallax scrolling (client side programming)
@@ -82,6 +106,21 @@
     * **A-Frame** for building virtual reality (VR) experiences.
     * ** AR.js** to create add a virtual element
 
+### A-FRAME
+```html
+<!-- include A-Frame obviously -->
+<script src="https://aframe.io/releases/0.6.0/aframe.min.js"></script>
+<!-- include ar.js for A-Frame -->
+<script src="https://jeromeetienne.github.io/AR.js/aframe/build/aframe-ar.js"></scipt>
 
-   * https://aframe.io/docs/0.8.0/introduction/
-   * 
+````
+* To include AR.js, you need to include **aframe-ar.js**.
+```html
+<a-scene embedded arjs>
+```
+* Then you initialize ar.js in **<a-scene>**. 
+```html
+<a-marker-camera preset='hiro'></a-marker-camera>
+```
+* Then you tell **A-Frame** that you want **arjs** to control the **camera**. For that, you just add
+

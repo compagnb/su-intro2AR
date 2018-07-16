@@ -12,7 +12,7 @@
 * 7/23: 
 * 7/24: 
 * 7/25: 
-* 7/26: r
+* 7/26: 
 * 7/27: 
 
 
@@ -21,16 +21,20 @@ Projects include:
 ### Course Breakdown:
 
 #### [Day 1: Introduction & Workspace Set-Up](notes/day1.md)
-* How The Internet Works
-* Types Of Communication
-* Client vs Server Side Programming
-* Intro To C9.io
 * Intro To Our Github Repository
-* JavaScript Libraries
+* Virtual Reality vs Augmented Reality
+* Marker based Augmented Reality
+* Intro To C9.io
+* Web Basics Review
+    * HTML
+    * JavaScript
+* A-Frame & AR.js
 * **In-class Exercises/Challenges**: 
     * Set-Up Class Workspace
-    * Client Side Exercise - Mad Libs
-* **Vocabulary**: web browser, web server, url, parse, protocol, server, client, path, Internet Service Provider (ISP), dns server, ip address, http request, http response, client side programming, server side programming
+    * Build A Basic HTML Structure
+    * Import JavaScript Libraries
+    * Read A Marker
+* **Vocabulary**: 
 
 #### [Day 2: Text & Basic Shapes](notes/day2.md)
 * Creating a 3d Enviornment

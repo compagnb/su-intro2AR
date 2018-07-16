@@ -106,7 +106,7 @@ Selector {
     * **A-Frame** for building virtual reality (VR) experiences.
     * ** AR.js** to create add a virtual element
 
-### A-FRAME
+### A-FRAME & AR.js
 ```html
 <!-- include A-Frame obviously -->
 <script src="https://aframe.io/releases/0.6.0/aframe.min.js"></script>

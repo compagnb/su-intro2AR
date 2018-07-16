@@ -28,7 +28,7 @@ Projects include:
 * Web Basics Review
     * HTML
     * JavaScript
-* A-Frame
+* A-Frame & AR.js
 * **In-class Exercises/Challenges**: 
     * Set-Up Class Workspace
     * Build A Basic HTML Structure

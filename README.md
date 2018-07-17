@@ -28,7 +28,6 @@ Projects include:
 * Web Basics Review
     * HTML
     * JavaScript
-* A-Frame & AR.js
 * **In-class Exercises/Challenges**: 
     * Set-Up Class Workspace
     * Build A Basic HTML Structure
@@ -36,9 +35,9 @@ Projects include:
     * Read A Marker
 * **Vocabulary**: 
 
-#### [Day 2: Text & Basic Shapes](notes/day2.md)
+#### [Day 2: A-Frame & AR.js](notes/day2.md)
 * Creating a 3d Enviornment
-* Using Text
+* Using Text & Simple Shapes
 * Simple Content
 * Cameras
 * **In-class Exercises/Challenges**: 

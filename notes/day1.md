@@ -5,8 +5,14 @@
 
 ### Augmented Reality vs Virtual Reality
 * **Virtual reality**, or VR, requires you to inhabit an entirely virtual environment.
+    *  Examples:
+        * [Jaunt VR](https://store.steampowered.com/app/456450/Jaunt_VR__Experience_Cinematic_Virtual_Reality/)
+        * [Minos Starfighter VR](https://youtu.be/2Zo5ldjC3v4)
 * **Augmented reality**, or AR, uses your existing natural environment and simply overlays virtual information on top of it. 
-* Users of **AR** experience a new and improved natural world where virtual information is used as a tool to provide assistance in everyday activities.
+    * Users of **AR** experience a new and improved natural world where virtual information is used as a tool to provide assistance in everyday activities.
+    * Examples:
+        * [Pokemon Go!]()
+        * [Clandestine Anomaly](https://youtu.be/hkn5PMnO5VQ)
 
 ### MARKER BASED AUGMENTED REALITY
 * Also called Image Recognition 

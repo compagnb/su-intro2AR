@@ -3,6 +3,16 @@
 
 ![Pokemon Go!](../img/pokemongo.jpg)
 
+### CREATING A 3D Enviornment
+* A scene is represented by the **<a-scene>** element. The scene is the global root object, and all entities are contained within the scene.
+* The scene inherits from the Entity class so it inherits all of its properties, its methods, the ability to attach components, and the behavior to wait for all of its child nodes (e.g., <a-assets> and <a-entity>) to load before kicking off the render loop.
+* **<a-scene>** handles all of the three.js and WebVR boilerplate for us:
+    * Set up canvas, renderer, render loop
+    * Default camera and lights
+    * Set up webvr-polyfill, VREffect
+    * Add UI to Enter VR that calls WebVR API
+
+
 ### Using Text
 ```html
 <a-text value="Hello, World!"></a-text>

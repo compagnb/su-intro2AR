@@ -5,14 +5,8 @@
 
 ### Augmented Reality vs Virtual Reality
 * **Virtual reality**, or VR, requires you to inhabit an entirely virtual environment.
-    *  Examples:
-        * [Jaunt VR](https://store.steampowered.com/app/456450/Jaunt_VR__Experience_Cinematic_Virtual_Reality/)
-        * [Minos Starfighter VR](https://youtu.be/2Zo5ldjC3v4)
 * **Augmented reality**, or AR, uses your existing natural environment and simply overlays virtual information on top of it. 
-    * Users of **AR** experience a new and improved natural world where virtual information is used as a tool to provide assistance in everyday activities.
-    * Examples:
-        * [Pokemon Go!]()
-        * [Clandestine Anomaly](https://youtu.be/hkn5PMnO5VQ)
+* Users of **AR** experience a new and improved natural world where virtual information is used as a tool to provide assistance in everyday activities.
 
 ### MARKER BASED AUGMENTED REALITY
 * Also called Image Recognition 
@@ -78,55 +72,4 @@
     * Indent to represent nesting
     * Use same capitalization
 
-### CSS Review
-* Cascading Style Sheets
-* a “style sheet language”, consisting of “style rules” that lets you style the elements on your page
-
-```html
-<p style = "color:#FF0000;">Some text...</p>
-```
-
-* The style attribute allows you to specify Cascading Style Sheet (CSS) rules within the element.
-
-```css
-Selector {
-    Property: value;
-    Property: value;
-}
-```
-* CSS consists of “style rules”. Each style rule has a **selector** and declarations of **property-value** pairs.
-* The **selector** is used to select which elements in the html will be given the **properties** inside the curly braces. 
-* Selectors include: element/tags, Id or Class attributes, or by the position within the document. 
-
-```html
-<body style='margin : 0px; overflow: hidden;'>
-```
-
-### WHAT IS JAVASCRIPT
-* A cross-platform, object-oriented scripting language.
-* Used to make webpages interactive, such as parallax scrolling (client side programming)
-* Used to build server-side applications, such as rest API's (server side programming)
-* To create AR we need to utilize 4 JavaScript Libraries 
-    * **three.js** to create and display animated 3D computer graphics in the web browser.
-    * **WebGL** for rendering interactive 2D and 3D graphics within aweb browser without the use of plug-ins.
-    * **A-Frame** for building virtual reality (VR) experiences.
-    * ** AR.js** to create add a virtual element
-
-### A-FRAME & AR.js
-```html
-<!-- include A-Frame obviously -->
-<script src="https://aframe.io/releases/0.6.0/aframe.min.js"></script>
-<!-- include ar.js for A-Frame -->
-<script src="https://jeromeetienne.github.io/AR.js/aframe/build/aframe-ar.js"></scipt>
-
-````
-* To include AR.js, you need to include **aframe-ar.js**.
-```html
-<a-scene embedded arjs>
-```
-* Then you initialize ar.js in **<a-scene>**. 
-```html
-<a-marker-camera preset='hiro'></a-marker-camera>
-```
-* Then you tell **A-Frame** that you want **arjs** to control the **camera**. For that, you just add
 

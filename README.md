@@ -5,10 +5,10 @@
 
 ### Course Outline
 * 7/16: Introduction & Workspace Set-Up
-* 7/17: Text, Images & Basic Shapes
-* 7/18: TinkerCad & 3d Modeling
-* 7/19: GLB & GLTF
-* 8/20: 3.js
+* 7/17: Linking External Files 
+* 7/18: A-FRAME & AR.js
+* 7/19: Multiple Markers Lab
+* 8/20: Multiple Markers (outside)
 * 7/23: 
 * 7/24: 
 * 7/25: 
@@ -35,7 +35,7 @@ Projects include:
     * Read A Marker
 * **Vocabulary**: 
 
-#### [Day 2: A-Frame & AR.js](notes/day2.md)
+#### [Day 2: A-Frame](notes/day2.md)
 * Creating a 3d Enviornment
 * Using Text & Simple Shapes
 * Simple Content

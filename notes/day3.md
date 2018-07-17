@@ -91,4 +91,3 @@
     * Have a preset bundle of components with default values
     * Map or proxy HTML attributes to component data
 
-### CREATING CUSTOM MARKERS

@@ -20,7 +20,7 @@ Selector {
 * The **selector** is used to select which elements in the html will be given the **properties** inside the curly braces. 
 * Selectors include: element/tags, Id or Class attributes, or by the position within the document. 
 * It is best practice to hold CSS in a separate file.  It can embedded in HTML by using the link tag with in the head tag. 
-* 
+
 ```html
 <!DOCTYPE html>
 <html>

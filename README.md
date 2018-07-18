@@ -35,19 +35,28 @@ Projects include:
     * Read A Marker
 * **Vocabulary**: 
 
-#### [Day 2: A-Frame](notes/day2.md)
-* Creating a 3d Enviornment
-* Using Text & Simple Shapes
-* Simple Content
-* Cameras
+#### [Day 2: Linking External Files ](notes/day2.md)
+    * CSS Review
+    * Linking External Files
 * **In-class Exercises/Challenges**: 
-    * Set-Up Class Workspace
-    * Client Side Exercise - Mad Libs
+    * Link External Stylesheet in HTML
+    * Link External Stylesheet in CSS
 * **Vocabulary**: 
 
-#### [Day 3: 3.js](notes/day2.md)
-* TBD
+#### [Day 3: A-FRAME & AR.js](notes/day3.md)
+* What Is Javascript
+* A-frame & AR.js
+* Creating A 3D Enviornment
 * **In-class Exercises/Challenges**: 
-    * Set-Up Class Workspace
-    * Client Side Exercise - Mad Libs
+    * Creating a 3d Enviornment
+    * Using Text & Simple Shapes
+* **Vocabulary**: web browser, web server, url, parse, protocol, server, client, path, Internet Service Provider (ISP), dns server, ip address, http request, http response, client side programming, server side programming
+
+#### [Day 4: Multiple Markers Lab](notes/day3.md)
+* Marker Based Augmented Reality
+* A-frame & AR.js
+* Creating A 3D Enviornment
+* **In-class Exercises/Challenges**: 
+    * Creating a 3d Enviornment
+    * Using Text & Simple Shapes
 * **Vocabulary**: web browser, web server, url, parse, protocol, server, client, path, Internet Service Provider (ISP), dns server, ip address, http request, http response, client side programming, server side programming

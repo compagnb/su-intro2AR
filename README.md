@@ -54,7 +54,7 @@ Projects include:
 
 #### [Day 4: Multiple Markers Lab](notes/day3.md)
 * Marker Based Augmented Reality
-* A-frame & AR.js
+* Custom Markers
 * Creating A 3D Enviornment
 * **In-class Exercises/Challenges**: 
     * Creating a 3d Enviornment

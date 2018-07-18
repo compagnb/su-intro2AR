@@ -8,14 +8,6 @@
 * **Augmented reality**, or AR, uses your existing natural environment and simply overlays virtual information on top of it. 
 * Users of **AR** experience a new and improved natural world where virtual information is used as a tool to provide assistance in everyday activities.
 
-### MARKER BASED AUGMENTED REALITY
-* Also called Image Recognition 
-* Uses a camera and some type of visual marker using simple patterns, to produce a result only when the marker is sensed by a reader. 
-* Simple patterns, such as a QR code, are used because:
-    * Easily recognized 
-    * Do not require a lot of processing power to read. 
-* The position and orientation is also calculated, in which some type of content and/or information is then overlaied the marker. 
-
 ### WEB BASICS REVIEW
 * A website consists of three differant parts:
     * Content/Structure/Skeleton (HTML)

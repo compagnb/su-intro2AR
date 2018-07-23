@@ -1,4 +1,4 @@
-## Day 3
+## Day 4
 ## Multiple Markers
 
 ![Markers](../img/markers.png)

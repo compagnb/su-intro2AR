@@ -7,8 +7,8 @@
 * 7/16: Introduction & Workspace Set-Up
 * 7/17: Linking External Files 
 * 7/18: A-FRAME & AR.js
-* 7/19: Multiple Markers Lab
-* 8/20: Multiple Markers (outside)
+* 7/19: Multiple Markers
+* 8/20: Animation
 * 7/23: 
 * 7/24: 
 * 7/25: 
@@ -50,13 +50,21 @@ Projects include:
 * **In-class Exercises/Challenges**: 
     * Creating a 3d Enviornment
     * Using Text & Simple Shapes
-* **Vocabulary**: web browser, web server, url, parse, protocol, server, client, path, Internet Service Provider (ISP), dns server, ip address, http request, http response, client side programming, server side programming
+* **Vocabulary**: 
 
-#### [Day 4: Multiple Markers Lab](notes/day3.md)
+#### [Day 4: Multiple Markers Lab](notes/day4.md)
 * Marker Based Augmented Reality
 * Custom Markers
 * Creating A 3D Enviornment
 * **In-class Exercises/Challenges**: 
     * Creating a 3d Enviornment
     * Using Text & Simple Shapes
-* **Vocabulary**: web browser, web server, url, parse, protocol, server, client, path, Internet Service Provider (ISP), dns server, ip address, http request, http response, client side programming, server side programming
+* **Vocabulary**: 
+
+#### [Day 5: Animation](notes/day5.md)
+* 
+* **Vocabulary**: 
+
+#### [Day 6: 3D Models](notes/day6.md)
+* 
+* **Vocabulary**: 

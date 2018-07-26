@@ -1,0 +1,67 @@
+<html>
+
+<head>
+  <!--<script src="box-component.js"></script>-->
+  <script src="https://aframe.io/releases/0.7.1/aframe.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+  <script src="https://cdn.rawgit.com/jeromeetienne/AR.js/1.5.0/aframe/build/aframe-ar.js"></script>
+</head>
+
+<body>
+  <script>
+    AFRAME.registerComponent('box', {
+      schema: {
+        width: { type: 'number', default: 1 },
+        height: { type: 'number', default: 1 },
+        depth: { type: 'number', default: 1 },
+        color: { type: 'color', default: '#AAA' }
+      },
+
+      /**
+       * Initial creation and setting of the mesh.
+       */
+      init: function() {
+        var data = this.data;
+        var el = this.el;
+        this.geometry = new THREE.BoxBufferGeometry(data.width, data.height, data.depth);
+        this.material = new THREE.MeshStandardMaterial({ color: data.color });
+        this.mesh = new THREE.Mesh(this.geometry, this.material);
+        el.setObject3D('mesh', this.mesh);
+      },
+
+      /**
+       * Update the mesh in response to property updates.
+       */
+      // update: function(oldData) {
+      //   var data = this.data;
+      //   var el = this.el;
+
+      //   // If `oldData` is empty, then this means we're in the initialization process.
+      //   // No need to update.
+      //   if (Object.keys(oldData).length === 0) { return; }
+
+      //   // Geometry-related properties changed. Update the geometry.
+      //   if (data.width !== oldData.width ||
+      //     data.height !== oldData.height ||
+      //     data.depth !== oldData.depth) {
+      //     el.getObject3D('mesh').geometry = new THREE.BoxBufferGeometry(data.width, data.height,
+      //       data.depth);
+      //   }
+
+      //   // Material-related properties changed. Update the material.
+      //   if (data.color !== oldData.color) {
+      //     el.getObject3D('mesh').material.color = data.color;
+      //   }
+      // },
+      // remove: function () {
+      //   this.el.removeObject3D('mesh');
+      // }
+    });
+  </script>
+
+  <a-scene>
+    <a-entity box="width: 0.5; height: 0.25; depth: 1; color: orange" position="0 0 -5"></a-entity>
+  </a-scene>
+</body>
+
+</html>

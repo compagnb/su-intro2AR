@@ -1,0 +1,40 @@
+<html>
+
+<head>
+  <!--<script src="box-component.js"></script>-->
+  <script src="https://aframe.io/releases/0.7.1/aframe.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+  <script src="https://cdn.rawgit.com/jeromeetienne/AR.js/1.5.0/aframe/build/aframe-ar.js"></script>
+</head>
+
+<body>
+  <script>
+    AFRAME.registerComponent('random-color', {
+  dependencies: ['material'],
+
+  init: function () {
+    // Set material component's color property to a random color.
+    this.el.setAttribute('material', 'color', getRandomColor());
+  }
+});
+
+function getRandomColor() {
+  const letters = '0123456789ABCDEF';
+  var color = '#';
+  for (var i = 0; i < 6; i++ ) {
+    color += letters[Math.floor(Math.random() * 16)];
+  }
+  return color;
+}
+  </script>
+
+  <a-scene>
+    <a-entity geometry="primitive: box; depth: 0.5; height: 0.5; width 0.5"
+            material="shader: standard"
+            position="0 0.5 -2"
+            random-color></a-entity>
+</a-scene>
+  </a-scene>
+</body>
+
+</html>

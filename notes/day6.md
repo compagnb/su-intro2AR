@@ -61,5 +61,5 @@ mtl: url(/path/to/nameOfFile.mtl)”>
 * Requires aframe-extras-loaders
 
 ```html
-<script src="https://rawgit.com/donmccurdy/aframe-extras/master/dist/aframe-extras.loaders.min.js"></script>
+<script src="https://cdn.jsdelivr.net/gh/donmccurdy/aframe-extras@master/dist/aframe-extras.loaders.min.js"></script>
 ```
